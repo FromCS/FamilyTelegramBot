@@ -33,7 +33,8 @@ Dictionary<string, Delegate> actionsByCommands = new Dictionary<string, Delegate
     {"/info", GetInfo}, // пишем паттерны запросов
     {"/categories", GettingDatabaseRequests.GetNamesOfTables},
     {"/stat", GettingDatabaseRequests.GetStat},
-    {"/analytics", AnalyticsDatabaseRequest.GetFullAnalytics}
+    {"/analytics", AnalyticsDatabaseRequest.GetFullAnalytics},
+    {"/average", GettingDatabaseRequests.GetAverageExpenses}
 };
 
 
